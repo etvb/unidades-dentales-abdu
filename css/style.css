@@ -1,3 +1,68 @@
 .Header img{
     width: 400px;
 }
+
+/* slider */
+.sectionContent {
+    text-align: center;
+}
+
+scroll-container {
+    inline-size: 75%;
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    margin: auto;
+    font-size: 0;
+}
+
+scroll-page img{
+    margin: 0;
+    width: 100%;
+    display:inline-block;
+    height: 100%;
+}
+
+.bullets {
+    margin-block-start: 10px;
+}
+
+.bullets a {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    border-radius: 50%;
+}
+
+.rosa[href="#img1"]{
+    background: pink;
+}
+.azul-claro[href="#img2"] {
+    background: rgb(129, 213, 241);
+}
+.naranja[href="#img3"] {
+    background: rgb(230, 117, 43);
+}
+.menta[href="#img4"] {
+    background: rgb(62, 205, 230);
+}
+.azul-rey[href="#img5"] {
+    background: rgb(7, 9, 126);
+}
+.verde[href="#img6"] {
+    background: rgb(135, 194, 93);
+}
+.azul[href="#img7"] {
+    background: rgb(51, 197, 241);
+}
+.morado[href="#img8"] {
+    background: rgb(132, 10, 233);
+}
+.negro[href="#img9"] {
+    background: black;
+}
+.rojo[href="#img10"] {
+    background: rgb(247, 6, 6);
+}
+/* end slider */
