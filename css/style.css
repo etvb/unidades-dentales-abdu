@@ -1,5 +1,8 @@
-.Header img{
+.Header figure {
     width: 400px;
+}
+.Header img{
+    width: 100%;
 }
 
 /* slider */
